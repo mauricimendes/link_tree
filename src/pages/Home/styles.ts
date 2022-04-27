@@ -1,23 +1,11 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    @media screen and ( max-width: 767px ) {
-        height: 100%;
-        width: 100vw;
-        background-image: linear-gradient(to bottom right, #2B64F6, #182F69);
-    }
-
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
         height: 100vh;
         width: 100vw;
         background-image: linear-gradient(to bottom right, #2B64F6, #182F69);
-    }
 
     @media screen and (min-width: 1024px) {
-        height: 100vh;
-        width: 100vw;
-        background-image: linear-gradient(to bottom right, #2B64F6, #182F69);
-
         padding: 0 25%;
     }
 `
